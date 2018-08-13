@@ -22,11 +22,6 @@
     "url": "https://github.com/webcomponents/webcomponentsjs/issues"
   },
   "scripts": {
-    "build": "gulp",
-    "test": "wct",
-    "regen-package-lock": "rm -rf node_modules package-lock.json; npm install",
-    "prepack": "npm run build",
-    "clean": "gulp clean"
   },
   "homepage": "https://webcomponents.org/polyfills",
   "devDependencies": {
